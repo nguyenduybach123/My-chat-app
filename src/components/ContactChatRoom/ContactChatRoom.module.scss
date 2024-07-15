@@ -1,0 +1,22 @@
+
+.select-list {
+    display: flex;
+    margin-top: 20px;
+
+    .active {
+        border-bottom: 2px solid var(--bg-blue);
+    }
+
+    p {
+        font-size: 1.8rem;
+        margin: 0 5px;
+        border-bottom: 2px solid transparent;
+    }
+
+
+}
+
+.content {
+    border-top: 1px solid #cccccc;
+    overflow-y: auto;
+}

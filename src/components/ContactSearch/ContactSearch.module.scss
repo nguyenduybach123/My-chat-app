@@ -1,0 +1,21 @@
+.wrapper-feature-list {
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+
+.btn-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    min-height: 64px;
+    position: relative;
+    transition: visibility 0s,opacity .5s linear;
+    overflow: visible;
+
+    .feature-item{
+        margin: 0 5px;
+    }
+
+}

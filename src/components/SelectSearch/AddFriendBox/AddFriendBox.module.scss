@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #cccccc;
+    }
+
+    &:hover .btn-addfriend {
+        display: flex;
+    }
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+    line-height: 20px;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.close {
+
+    &:hover {
+        color: var(--bg-blue);
+    }
+}
+
+.btn-addfriend {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

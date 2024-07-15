@@ -1,0 +1,52 @@
+.chat-content {
+    min-height: 500px;
+    flex: 1;
+    overflow-y: auto;
+    background-color: var(--border-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.chat-input {
+    padding: 10px;
+
+
+}
+
+.chat-input div {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.chat-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 0 5px;
+
+    input:not(:placeholder-shown) ~ .btn-submit {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
+
+.btn-submit {
+    opacity: 1;
+    width: 80px;
+    height: 35px;
+    border-radius: 50px !important;
+    color: white;
+    background-color: var(--bg-blue);
+
+    &:hover {
+        background-color:#80ccff;
+    }
+}

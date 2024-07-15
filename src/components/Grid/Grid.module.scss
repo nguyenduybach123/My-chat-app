@@ -1,0 +1,28 @@
+$spacing: (
+    "sm": 8px,
+    "md": 16px,
+    "lg": 24px
+);
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    box-sizing: border-box;
+}
+
+@for $i from 1 through 12 {
+    .cols_#{$i} {
+        flex-basis: $i/12 * 100%;
+    }
+}
+
+
+@each $name, $value in $spacing {
+    .spacing_#{$name} > .item {
+        padding: $value;
+    }
+}

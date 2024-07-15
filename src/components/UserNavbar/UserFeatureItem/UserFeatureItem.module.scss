@@ -1,0 +1,26 @@
+
+.popover-wrapper {
+    position: relative;
+}
+
+.wrapper {
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+
+.active {
+    background-color: rgba(24,112,216,255);
+}
+
+.wrapper:hover {
+    background-color: rgba(30,132,225,255);
+}

@@ -1,0 +1,40 @@
+.wrapper {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--border-color);
+    }
+}
+
+.avatar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .btn {
+        margin: 0 2px;
+        min-width: 80px;
+
+        &:hover {
+            color: white;
+            background-color: var(--bg-blue);
+        }
+    }
+}

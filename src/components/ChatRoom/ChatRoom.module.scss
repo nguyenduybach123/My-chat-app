@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #cccccc;
+    }
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.content {
+    flex: 1;
+    line-height: 20px;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.time {
+    color: gray;
+    font-size: 1rem;
+}
+
+.text {
+    color: gray;
+    font-size: 1.2rem;
+    margin: 2px 0;
+}
+
+
+

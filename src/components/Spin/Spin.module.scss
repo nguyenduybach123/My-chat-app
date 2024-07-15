@@ -1,0 +1,91 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+//spin dot style
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 0 3px;
+    transition: all .2s;
+    animation: loading .3s infinite alternate;
+}
+
+@keyframes loading {
+    to {
+        opacity: .2;
+        transform: translateY(-20px);
+    }
+}
+
+.dot-one {
+    animation-delay: .1s;
+    background-color: red;
+}
+
+.dot-two {
+    animation-delay: .3s;
+    background-color: blue;
+}
+
+.dot-three {
+    animation-delay: .6s;
+    background-color: green;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+//
+
+//spin around style
+
+
+.ring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px transparent solid;
+    border-radius: 100%;
+    animation: around .5s infinite;
+}
+
+.ring-one {
+    width: calc(100% - 2%);
+    height: calc(100% - 2%);
+    border-top: 1px red solid;
+}
+
+.ring-two {
+    width: calc(100% - 6%);
+    height: calc(100% - 6%);
+    border-top: 1px blue solid;
+    animation-delay: .4s;
+
+}
+
+.ring-three {
+    width: calc(100% - 20%);
+    height: calc(100% - 20%);
+    border-top: 1px yellow solid;
+    animation-delay: .8s;
+}
+
+@keyframes around {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+//

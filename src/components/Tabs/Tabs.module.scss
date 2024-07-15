@@ -1,0 +1,54 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.tab-header {
+    display: flex;
+    position: relative;
+
+    .line {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 6px;
+        border-radius: 15px;
+        background-color: blueviolet;
+        transition: all .2s ease;
+    }
+}
+
+.tab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+.tab-content {
+    line-height: 2.2rem;
+    flex: 1;
+
+}
+
+
+.tab-pane {
+    display: none;
+    font-weight: 400;
+
+    &.active {
+        display: block;
+    }
+}
+
+
+
+

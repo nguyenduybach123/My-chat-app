@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.content {
+    margin-left: 8px;
+}
+
+.primary-content{
+    background-color: rgba(230,239,254,255) !important;
+}
+
+.user_message{
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.friend_message {
+    align-self: flex-start;
+    margin-left: 10px;
+}

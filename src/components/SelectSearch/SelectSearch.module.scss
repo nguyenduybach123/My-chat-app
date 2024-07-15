@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    opacity: 1 !important;
+    background-color: var(--bg-primary);
+    border-radius: 10px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
